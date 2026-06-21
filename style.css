@@ -6,6 +6,10 @@
   --color-secondary: rgb(30, 40, 56);
   --color-text: rgb(242, 242, 242);
 }
+::selection {
+  background-color: var(--color-text-secondary);
+  color: var(--color-bg);
+}
 html {
   scroll-behavior: smooth;
 }
@@ -312,7 +316,7 @@ body {
 .number-white {
   color: var(--color-text);
 }
-.container {
+.hero-section .container {
   margin-right: 127px;
   height: 100vh;
 }
@@ -392,13 +396,23 @@ body {
   }
   .hero-section {
     text-align: center;
-    padding: 0px 0 320px 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1240px;
   }
 }
 @media (max-width: 767.98px) {
   .card-light {
     width: 100%;
   }
+
   .games-card-img {
     height: 240px;
   }
@@ -741,12 +755,6 @@ body {
   }
 }
 
-@media (min-width: 600px) {
-  .team-slider::before {
-    right: -400px;
-    top: 110px;
-  }
-}
 /*ScrollGameEnd*/
 /*OurTeamStart*/
 #our-team {
@@ -838,3 +846,145 @@ body {
   color: rgb(202 255 28);
 }
 /*OurTeamEnd*/
+/*contactusstart*/
+#contact-us {
+  background-color: rgb(16, 22, 36);
+  width: 100%;
+  padding: 60px 0;
+}
+
+.contact-section {
+  padding: 65px 0;
+  width: 100%;
+}
+.contact-section p {
+  color: rgb(153, 161, 176);
+}
+.contact-card {
+  padding: 33px 18px;
+  border-radius: 25px;
+  width: auto;
+  background-color: #1e2939;
+  display: flex;
+  align-items: center;
+}
+.icon-circle {
+  background-color: var(--color-text-secondary);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+.contact-card h3 {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 19px;
+  font-family: "Days One", sans-serif;
+}
+.contact-card p {
+  color: rgb(153, 161, 176);
+  font-size: 15px;
+  margin: 0;
+}
+.community-contact {
+  padding: 33px 18px;
+  border-radius: 25px;
+  width: auto;
+
+  background: linear-gradient(90deg, #c5fd28, rgb(36, 224, 114));
+}
+.community-p h3 {
+  font-size: 25px;
+  font-family: "Days One", sans-serif;
+  font-weight: 700;
+}
+.community-p p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.social-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.social-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: var(--color-text-secondary);
+  background-color: var(--color-bg);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+.social-circle:hover {
+  background-color: rgb(10 13 18 / 76%);
+  color: var(--color-text-secondary);
+}
+.contact-form {
+  padding: 30px;
+  border-radius: 25px;
+  background-color: #1e2939;
+  align-items: center;
+}
+.contact-form label {
+  color: rgb(180, 172, 172);
+  font-family: "Days One", sans-serif;
+  padding: 0 3px;
+  font-size: 14px;
+}
+.contact-form input {
+  background-color: rgba(255, 255, 255, 0.11);
+  font-weight: 500;
+  border-color: #565657;
+  padding: 10px 15px;
+}
+
+.form-header {
+  color: var(--color-text-secondary);
+  font-size: 26px;
+  font-weight: 500;
+  margin: 0;
+}
+.form-title {
+  font-size: 23px;
+  font-family: "Days One", sans-serif;
+  color: var(--color-text);
+}
+.form-select {
+  background-color: rgba(255, 255, 255, 0.11);
+  font-weight: 500;
+  border-color: #565657;
+  padding: 10px 15px;
+  color: rgb(180, 172, 172);
+}
+.form-control {
+  background-color: rgba(255, 255, 255, 0.11);
+  font-weight: 500;
+  border-color: #565657;
+  padding: 16px 15px;
+
+  color: rgb(180, 172, 172);
+}
+.contact-form button {
+  font-size: 17px;
+  padding: 15px 0;
+  font-weight: 600;
+  margin-bottom: 13px;
+  border: none;
+}
+.form-sup {
+  color: #7d7d7e;
+  font-size: 14px;
+}
+/*contactusend*/
