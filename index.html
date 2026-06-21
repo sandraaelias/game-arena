@@ -1,0 +1,1168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games website</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Days+One&family=Exo:ital,wght@0,800;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Days+One&family=Exo:ital,wght@0,800;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg p-3 sticky-top">
+      <div class="container-fluid px-4">
+        <div class="navbar-brand-wrap d-flex align-items-center">
+          <i class="fa-solid fa-gamepad px-2 px-lg-3"></i>
+          <a class="navbar-brand fw-bolder" href="#">GameArena</a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-2 px-1g-0 fs-6">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-games">OUR GAMES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#What-we"
+                >What We Do</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-team">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <hr class="nav-divider d-lg-none w-100 my-2" />
+          <div class="d-flex align-items-center mb-2 mb-lg-0">
+            <i class="fa-regular fa-bell mx-2 mx-s-0"></i>
+            <span class="d-lg-none">Notifications</span>
+          </div>
+          <div class="d-flex align-items-center mb-2 mb-lg-0">
+            <i class="fa-regular fa-message mx-2 pe-2 px-s-0 mx-s-0"></i>
+            <span class="d-lg-none">Messages</span>
+          </div>
+          <form class="d-flex" role="search">
+            <button
+              class="btn btn-sign rounded-5 fw-bold px-4 py-2 w-100 w-lg-0"
+              type="submit"
+            >
+              Sign in
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+
+    <section
+      id="hero"
+      class="hero-section d-flex align-items-center flex items-center"
+    >
+      <div class="container">
+        <div class="row items-center gy-5">
+          <div class="col-lg-6 text-start-lg">
+            <h1 class="hero-title-lg text-white mb-1">THE ULTIMATE</h1>
+            <h1 class="hero-title text-lime mb-3">GAMING</h1>
+            <h1 class="hero-title text-white mb-4">EXPERIENCE</h1>
+            <p class="hero-description mb-4">
+              join millions of gamers worldwide in the most competitve eSports
+              tournaments. Experience next-level gaming with our cutting-edge
+              technology and endless possibilities.
+            </p>
+            <div class="d-flex-lg flex-wrap-lg gap-3">
+              <a
+                href="#"
+                class="btn btn-lime text-dark fw-bold px-4 py-3 rounded-3"
+              >
+                Start Gaming Now
+              </a>
+              <a href="#" class="btn btn-outline-lime px-4 py-3 rounded-4"
+                >Watch Tournments</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="image-wrapper position-relative">
+              <div class="neon-border-frame">
+                <img
+                  src="images/hero-img.png"
+                  alt="Hero Image"
+                  class="img-fluid hero-image"
+                />
+              </div>
+              <div class="floating-badge d-flex align-items-center gap-2">
+                <i class="fa-solid fa-trophy"></i>
+                <div class="hero-badge d-flex flex-column">
+                  <small class="text-secondary d-block">Active Players</small>
+                  <span class="number-white fw-bold h5 mb-0">2.5M+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--endHeroSection-->
+    <!--Our Games-->
+    <section id="our-games">
+      <div class="section-header text-center mb-5">
+        <div
+          class="section-tag d-flex align-items-center justify-content-center gap-3 mb-3"
+        >
+          <div class="line-left"></div>
+          <span class="text-uppercase fw-bold main-tag">Our games</span>
+          <div class="line-right"></div>
+        </div>
+        <h2 class="display-4 fw-bold">Our Latest Games</h2>
+      </div>
+
+      <div class="container-fluid px-4 px-lg-5">
+        <!-- ===== MOBILE CAROUSEL: 1 card per slide (visible only on xs/sm) ===== -->
+        <div
+          id="carouselMobile"
+          class="carousel slide d-block d-md-none"
+          data-bs-touch="true"
+          data-bs-interval="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-light w-100">
+                <img
+                  src="images/latest-games-1.png"
+                  class="img-fluid games-card-img"
+                  alt="Game 1"
+                />
+                <div class="card-overlay">
+                  <div class="card-content-top">
+                    <span class="card-badge"
+                      ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                    >
+                    <span class="card-title"
+                      ><i class="fa-solid fa-users"></i>MULTI PLAYER</span
+                    >
+                    <p class="card-text">Alien Companions</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-light w-100">
+                <img
+                  src="images/latest-games-2.png"
+                  class="img-fluid games-card-img"
+                  alt="Game 2"
+                />
+                <div class="card-overlay">
+                  <div class="card-content-top">
+                    <span class="card-badge"
+                      ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                    >
+                    <span class="card-title"
+                      ><i class="fa-solid fa-users"></i>Sci-Fi</span
+                    >
+                    <p class="card-text">Cyber Run 2099</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-light w-100">
+                <img
+                  src="images/latest-games-3.png"
+                  class="img-fluid games-card-img"
+                  alt="Game 3"
+                />
+                <div class="card-overlay">
+                  <div class="card-content-top">
+                    <span class="card-badge legend-badge"
+                      ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                    >
+                    <span class="card-title legend-title"
+                      ><i class="fa-solid fa-users"></i>Geoforce</span
+                    >
+                    <p class="card-text">
+                      The Legend of Zelda: Tears of the Kingdom
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-light w-100">
+                <img
+                  src="images/latest-games-4.png"
+                  class="img-fluid games-card-img"
+                  alt="Game 4"
+                />
+                <div class="card-overlay">
+                  <div class="card-content-top">
+                    <span class="card-badge"
+                      ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                    >
+                    <span class="card-title"
+                      ><i class="fa-solid fa-users"></i>MULTI PLAYER</span
+                    >
+                    <p class="card-text">Aetheria Chronicles</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-light w-100">
+                <img
+                  src="images/latest-games-5.png"
+                  class="img-fluid games-card-img"
+                  alt="Game 5"
+                />
+                <div class="card-overlay">
+                  <div class="card-content-top">
+                    <span class="card-badge"
+                      ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                    >
+                    <span class="card-title"
+                      ><i class="fa-solid fa-users"></i>Co-op</span
+                    >
+                    <p class="card-text">Warfront Protocol</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-light w-100">
+                <img
+                  src="images/latest-games-6.png"
+                  class="img-fluid games-card-img"
+                  alt="Game 6"
+                />
+                <div class="card-overlay">
+                  <div class="card-content-top">
+                    <span class="card-badge shot-badge"
+                      ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                    >
+                    <span class="card-title shot-title"
+                      ><i class="fa-solid fa-users"></i>Fantasy</span
+                    >
+                    <p class="card-text">Shot Striker</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-light w-100">
+                <img
+                  src="images/latest-games-7.png"
+                  class="img-fluid games-card-img"
+                  alt="Game 7"
+                />
+                <div class="card-overlay">
+                  <div class="card-content-top">
+                    <span class="card-badge"
+                      ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                    >
+                    <span class="card-title"
+                      ><i class="fa-solid fa-users"></i>MULTI PLAYER</span
+                    >
+                    <p class="card-text">Epic Gaming League</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-light w-100">
+                <img
+                  src="images/latest-games-8.png"
+                  class="img-fluid games-card-img"
+                  alt="Game 8"
+                />
+                <div class="card-overlay">
+                  <div class="card-content-top">
+                    <span class="card-badge"
+                      ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                    >
+                    <span class="card-title"
+                      ><i class="fa-solid fa-users"></i>MULTI PLAYER</span
+                    >
+                    <p class="card-text">Barren Alien Worlds</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-light w-100">
+                <img
+                  src="images/latest-games-9.png"
+                  class="img-fluid games-card-img"
+                  alt="Game 9"
+                />
+                <div class="card-overlay">
+                  <div class="card-content-top">
+                    <span class="card-badge"
+                      ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                    >
+                    <span class="card-title"
+                      ><i class="fa-solid fa-users"></i>FUTURISTIC</span
+                    >
+                    <p class="card-text">Cloveland Quest</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex justify-content-center align-items-center gap-3 mt-4"
+          >
+            <button
+              class="games-carousel-btn"
+              type="button"
+              data-bs-target="#carouselMobile"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button
+              class="games-carousel-btn"
+              type="button"
+              data-bs-target="#carouselMobile"
+              data-bs-slide="next"
+            >
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <a href="#" class="btn btn-game fw-bold ms-2">View All Games</a>
+          </div>
+        </div>
+
+        <!-- ===== TABLET CAROUSEL: 2 cards per slide (visible only on md) ===== -->
+        <div
+          id="carouselTablet"
+          class="carousel slide d-none d-md-block d-lg-none"
+          data-bs-touch="true"
+          data-bs-interval="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row g-4">
+                <div class="col-6">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-1.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 1"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title"
+                          ><i class="fa-solid fa-users"></i>MULTI PLAYER</span
+                        >
+                        <p class="card-text">Alien Companions</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-2.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 2"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title"
+                          ><i class="fa-solid fa-users"></i>Sci-Fi</span
+                        >
+                        <p class="card-text">Cyber Run 2099</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row g-4">
+                <div class="col-6">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-3.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 3"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge legend-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title legend-title"
+                          ><i class="fa-solid fa-users"></i>Geoforce</span
+                        >
+                        <p class="card-text">
+                          The Legend of Zelda: Tears of the Kingdom
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-4.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 4"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title"
+                          ><i class="fa-solid fa-users"></i>MULTI PLAYER</span
+                        >
+                        <p class="card-text">Aetheria Chronicles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row g-4">
+                <div class="col-6">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-5.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 5"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title"
+                          ><i class="fa-solid fa-users"></i>Co-op</span
+                        >
+                        <p class="card-text">Warfront Protocol</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-6.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 6"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge shot-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title shot-title"
+                          ><i class="fa-solid fa-users"></i>Fantasy</span
+                        >
+                        <p class="card-text">Shot Striker</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row g-4">
+                <div class="col-6">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-7.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 7"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title"
+                          ><i class="fa-solid fa-users"></i>MULTI PLAYER</span
+                        >
+                        <p class="card-text">Epic Gaming League</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-8.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 8"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title"
+                          ><i class="fa-solid fa-users"></i>MULTI PLAYER</span
+                        >
+                        <p class="card-text">Barren Alien Worlds</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row g-4">
+                <div class="col-6">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-9.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 9"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title"
+                          ><i class="fa-solid fa-users"></i>FUTURISTIC</span
+                        >
+                        <p class="card-text">Cloveland Quest</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex justify-content-center align-items-center gap-3 mt-4"
+          >
+            <button
+              class="games-carousel-btn"
+              type="button"
+              data-bs-target="#carouselTablet"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button
+              class="games-carousel-btn"
+              type="button"
+              data-bs-target="#carouselTablet"
+              data-bs-slide="next"
+            >
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <a href="#" class="btn btn-game fw-bold ms-2">View All Games</a>
+          </div>
+        </div>
+
+        <!-- ===== DESKTOP CAROUSEL: 3 cards per slide (visible on lg+) ===== -->
+        <div
+          id="carouselDesktop"
+          class="carousel slide d-none d-lg-block"
+          data-bs-touch="false"
+          data-bs-interval="false"
+        >
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="row g-4">
+                <div class="col-lg-4">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-1.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 1"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title"
+                          ><i class="fa-solid fa-users"></i>MULTI PLAYER</span
+                        >
+                        <p class="card-text">Alien Companions</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-2.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 2"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title"
+                          ><i class="fa-solid fa-users"></i>Sci-Fi</span
+                        >
+                        <p class="card-text">Cyber Run 2099</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-3.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 3"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge legend-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title legend-title"
+                          ><i class="fa-solid fa-users"></i>Geoforce</span
+                        >
+                        <p class="card-text">
+                          The Legend of Zelda: Tears of the Kingdom
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="row g-4">
+                <div class="col-lg-4">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-4.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 4"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title"
+                          ><i class="fa-solid fa-users"></i>MULTI PLAYER</span
+                        >
+                        <p class="card-text">Aetheria Chronicles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-5.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 5"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title"
+                          ><i class="fa-solid fa-users"></i>Co-op</span
+                        >
+                        <p class="card-text">Warfront Protocol</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-6.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 6"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge shot-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title shot-title"
+                          ><i class="fa-solid fa-users"></i>Fantasy</span
+                        >
+                        <p class="card-text">Shot Striker</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <div class="row g-4">
+                <div class="col-lg-4">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-7.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 7"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title"
+                          ><i class="fa-solid fa-users"></i>MULTI PLAYER</span
+                        >
+                        <p class="card-text">Epic Gaming League</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-8.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 8"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title"
+                          ><i class="fa-solid fa-users"></i>MULTI PLAYER</span
+                        >
+                        <p class="card-text">Barren Alien Worlds</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card-light">
+                    <img
+                      src="images/latest-games-9.png"
+                      class="img-fluid games-card-img"
+                      alt="Game 9"
+                    />
+                    <div class="card-overlay">
+                      <div class="card-content-top">
+                        <span class="card-badge"
+                          ><i class="fa-solid fa-gamepad"></i>ADVENTURE</span
+                        >
+                        <span class="card-title"
+                          ><i class="fa-solid fa-users"></i>FUTURISTIC</span
+                        >
+                        <p class="card-text">Cloveland Quest</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /carousel-inner -->
+          <div
+            class="d-flex justify-content-center align-items-center gap-3 mt-4"
+          >
+            <button
+              class="games-carousel-btn"
+              type="button"
+              data-bs-target="#carouselDesktop"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button
+              class="games-carousel-btn"
+              type="button"
+              data-bs-target="#carouselDesktop"
+              data-bs-slide="next"
+            >
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <a href="#" class="btn btn-game fw-bold ms-2">View All Games</a>
+          </div>
+        </div>
+        <!-- /carousel -->
+      </div>
+    </section>
+
+    <!--what we do start-->
+    <section id="What-we">
+      <div class="section-header text-center mb-5">
+        <div
+          class="section-tag d-flex align-items-center justify-content-center gap-3 mb-3"
+        >
+          <div class="line-left"></div>
+          <span class="text-uppercase fw-bolder main-tag">WHAT WE DO</span>
+          <div class="line-right"></div>
+        </div>
+        <h2 class="display-4 fw-bold">More Than Just Games</h2>
+        <p class="diff-part">We Build <span> Interactive </span>Journeys</p>
+      </div>
+
+      <div class="row g-4 align-items-stretch justify-content-center">
+        <!--FirstLine-->
+        <div class="col-lg-3 col-sm-6 play-card">
+          <div
+            class="custom-card hover-triangle-card text-center d-flex flex-column align-items-center justify-content-center h-100"
+          >
+            <div class="icon-box mb-3"><i class="fa-solid fa-desktop"></i></div>
+            <div class="card-part">PC Game Development</div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 play-card">
+          <div
+            class="custom-card hover-triangle-card text-center d-flex flex-column align-items-center justify-content-center h-100"
+          >
+            <div class="icon-box mb-3">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <div class="card-part">Mobile Game Development</div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <img
+            class="img-fluid image-part"
+            src="images/what-we-do-1.png"
+            alt="play station"
+          />
+        </div>
+        <div class="col-lg-3 col-sm-6 play-card">
+          <div
+            class="custom-card hover-triangle-card text-center d-flex flex-column align-items-center justify-content-center h-100"
+          >
+            <div class="icon-box mb-3"><i class="fa-solid fa-mask"></i></div>
+            <div class="card-part">AR/VR Solutions</div>
+          </div>
+        </div>
+
+        <!--secondLine-->
+        <div class="col-lg-3 col-sm-6 play-card">
+          <div
+            class="custom-card hover-triangle-card text-center d-flex flex-column align-items-center justify-content-center h-100"
+          >
+            <div class="icon-box mb-3"><i class="fa-solid fa-cubes"></i></div>
+            <div class="card-part">AR/VR Design</div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <img
+            class="img-fluid image-part"
+            src="images/what-we-do-2.png"
+            alt="play station"
+          />
+        </div>
+        <div class="col-lg-3 col-sm-6 play-card">
+          <div
+            class="custom-card hover-triangle-card text-center d-flex flex-column align-items-center justify-content-center h-100"
+          >
+            <div class="icon-box mb-3">
+              <i class="fa-brands fa-playstation"></i>
+            </div>
+            <div class="card-part">PS4 Game Development</div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 play-card">
+          <div
+            class="custom-card hover-triangle-card text-center d-flex flex-column align-items-center justify-content-center h-100"
+          >
+            <div class="icon-box mb-3"><i class="fa-solid fa-cube"></i></div>
+            <div class="card-part">3D Modelings</div>
+          </div>
+        </div>
+      </div>
+      <div class="green-line"></div>
+    </section>
+    <!--what we do end-->
+    <!--scrollGamesStart-->
+    <section class="scroll-section">
+      <!--Row1 - scrolls left-->
+      <div class="team-slider">
+        <div class="team-track">
+          <img src="images/logo-1.jpg" alt="" />
+          <img src="images/logo-2.jpg" alt="" />
+          <img src="images/logo-3.jpg" alt="" />
+          <img src="images/logo-4.jpg" alt="" />
+          <img src="images/logo-5.jpg" alt="" />
+          <img src="images/logo-6.jpg" alt="" />
+          <img src="images/logo-1.jpg" alt="" />
+          <img src="images/logo-2.jpg" alt="" />
+          <img src="images/logo-3.jpg" alt="" />
+          <img src="images/logo-4.jpg" alt="" />
+          <img src="images/logo-5.jpg" alt="" />
+          <img src="images/logo-6.jpg" alt="" />
+          <!--Duplicate for seamless loop-->
+          <img src="images/logo-1.jpg" alt="" />
+          <img src="images/logo-2.jpg" alt="" />
+          <img src="images/logo-3.jpg" alt="" />
+          <img src="images/logo-4.jpg" alt="" />
+          <img src="images/logo-5.jpg" alt="" />
+          <img src="images/logo-6.jpg" alt="" />
+          <img src="images/logo-1.jpg" alt="" />
+          <img src="images/logo-2.jpg" alt="" />
+          <img src="images/logo-3.jpg" alt="" />
+          <img src="images/logo-4.jpg" alt="" />
+          <img src="images/logo-5.jpg" alt="" />
+          <img src="images/logo-6.jpg" alt="" />
+        </div>
+      </div>
+      <!--Row2 - scrolls right (reversed)-->
+      <div class="team-slider team-slider-reverse">
+        <div class="team-track team-track-reverse">
+          <img src="images/logo-7.jpg" alt="" />
+          <img src="images/logo-8.jpg" alt="" />
+          <img src="images/logo-9.jpg" alt="" />
+          <img src="images/logo-10.jpg" alt="" />
+          <img src="images/logo-11.jpg" alt="" />
+          <img src="images/logo-12.jpg" alt="" />
+          <img src="images/logo-7.jpg" alt="" />
+          <img src="images/logo-8.jpg" alt="" />
+          <img src="images/logo-9.jpg" alt="" />
+          <img src="images/logo-10.jpg" alt="" />
+          <img src="images/logo-11.jpg" alt="" />
+          <img src="images/logo-12.jpg" alt="" />
+          <!--Duplicate for seamless loop-->
+          <img src="images/logo-7.jpg" alt="" />
+          <img src="images/logo-8.jpg" alt="" />
+          <img src="images/logo-9.jpg" alt="" />
+          <img src="images/logo-10.jpg" alt="" />
+          <img src="images/logo-11.jpg" alt="" />
+          <img src="images/logo-12.jpg" alt="" />
+          <img src="images/logo-7.jpg" alt="" />
+          <img src="images/logo-8.jpg" alt="" />
+          <img src="images/logo-9.jpg" alt="" />
+          <img src="images/logo-10.jpg" alt="" />
+          <img src="images/logo-11.jpg" alt="" />
+          <img src="images/logo-12.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--scrollGamesEnd-->
+    <!--OurTeamStart-->
+    <section id="our-team">
+      <div class="section-header text-center mb-5">
+        <div
+          class="section-tag d-flex align-items-center justify-content-center gap-3 mb-3"
+        >
+          <div class="line-left"></div>
+          <span class="text-uppercase fw-bolder main-tag">OUR TEAM</span>
+          <div class="line-right"></div>
+        </div>
+        <h2 class="display-4 fw-bold">Our Best Team Members</h2>
+        <p class="sm-p">
+          Meet the professional gamers and experts behind our success
+        </p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <!--Row 1-->
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-card">
+            <img
+              src="images/avatar-1.png"
+              alt="Alex Chen"
+              class="team-card-img"
+            />
+            <div class="team-card-overlay"></div>
+            <div class="team-card-info">
+              <div class="team-card-details">
+                <p class="team-card-name">Alex "Phantom" Chen</p>
+                <p class="team-card-role">Pro Player - VALORANT</p>
+                <span class="team-card-badge">World Champion 2023</span>
+              </div>
+              <div class="team-card-alias">PHANTOM</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-card">
+            <img
+              src="images/avatar-2.png"
+              alt="Ali Ahmed"
+              class="team-card-img"
+            />
+            <div class="team-card-overlay"></div>
+            <div class="team-card-info">
+              <div class="team-card-details">
+                <p class="team-card-name">Ali "Nova" Ahmed</p>
+                <p class="team-card-role">Pro Player - League of Legends</p>
+                <span class="team-card-badge">MVP 2023 Season</span>
+              </div>
+              <div class="team-card-alias">NOVA</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-card">
+            <img
+              src="images/avatar-3.png"
+              alt="Marcus Rodriguez"
+              class="team-card-img"
+            />
+            <div class="team-card-overlay"></div>
+            <div class="team-card-info">
+              <div class="team-card-details">
+                <p class="team-card-name">Marcus "Viper" Rodriguez</p>
+                <p class="team-card-role">Head Coach - CS:GO</p>
+                <span class="team-card-badge">5x Major Winner</span>
+              </div>
+              <div class="team-card-alias">VIPER</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-card">
+            <img
+              src="images/avatar-4.png"
+              alt="Seif Usama"
+              class="team-card-img"
+            />
+            <div class="team-card-overlay"></div>
+            <div class="team-card-info">
+              <div class="team-card-details">
+                <p class="team-card-name">Seif "Saga" Usama</p>
+                <p class="team-card-role">Strategic Analyst</p>
+                <span class="team-card-badge">Data Science Expert</span>
+              </div>
+              <div class="team-card-alias">SAGA</div>
+            </div>
+          </div>
+        </div>
+        <!--Row 2-->
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-card">
+            <img
+              src="images/avatar-5.png"
+              alt="Sara Kim"
+              class="team-card-img"
+            />
+            <div class="team-card-overlay"></div>
+            <div class="team-card-info">
+              <div class="team-card-details">
+                <p class="team-card-name">Jake "Storm" Kim</p>
+                <p class="team-card-role">Pro Player - Fortnite</p>
+                <span class="team-card-badge">Top 10 Global</span>
+              </div>
+              <div class="team-card-alias">STORM</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-card">
+            <img
+              src="images/avatar-6.png"
+              alt="Jake Torres"
+              class="team-card-img"
+            />
+            <div class="team-card-overlay"></div>
+            <div class="team-card-info">
+              <div class="team-card-details">
+                <p class="team-card-name">Jake "Blaze" Torres</p>
+                <p class="team-card-role">Game Designer</p>
+                <span class="team-card-badge">UX Lead</span>
+              </div>
+              <div class="team-card-alias">BLAZE</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-card">
+            <img
+              src="images/avatar-7.png"
+              alt="Mia Larson"
+              class="team-card-img"
+            />
+            <div class="team-card-overlay"></div>
+            <div class="team-card-info">
+              <div class="team-card-details">
+                <p class="team-card-name">Mia "Echo" Larson</p>
+                <p class="team-card-role">Esports Manager</p>
+                <span class="team-card-badge">3x Tournament Director</span>
+              </div>
+              <div class="team-card-alias">ECHO</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-card">
+            <img
+              src="images/avatar-8.png"
+              alt="Ryan Brooks"
+              class="team-card-img"
+            />
+            <div class="team-card-overlay"></div>
+            <div class="team-card-info">
+              <div class="team-card-details">
+                <p class="team-card-name">Ryan "Titan" Brooks</p>
+                <p class="team-card-role">Pro Player - Overwatch</p>
+                <span class="team-card-badge">Season MVP</span>
+              </div>
+              <div class="team-card-alias">TITAN</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--OurTeamEnd-->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script>
+      const navCollapse = document.getElementById("main");
+      const navIcon = document.querySelector(".navbar-toggler i");
+
+      navCollapse.addEventListener("show.bs.collapse", () => {
+        navIcon.classList.replace("fa-bars", "fa-xmark");
+      });
+      navCollapse.addEventListener("hide.bs.collapse", () => {
+        navIcon.classList.replace("fa-xmark", "fa-bars");
+      });
+    </script>
+  </body>
+</html>
