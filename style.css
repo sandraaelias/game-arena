@@ -43,8 +43,9 @@ body {
 .nav-link {
   color: var(--color-text);
 }
-.nav-item .active {
-  color: var(--color-text-secondary);
+.nav-item .active,
+.nav-link.active {
+  color: var(--color-text-secondary) !important;
 }
 .nav-link:hover,
 .nav-item:hover {
@@ -988,3 +989,80 @@ body {
   font-size: 14px;
 }
 /*contactusend*/
+/*footer*/
+
+/*footer*/
+.footer {
+  background-color: black;
+  padding: 50px;
+}
+.footer-title {
+  font-size: 20px;
+  color: var(--color-text-secondary);
+}
+.footer-p {
+  width: 100%;
+  color: rgb(131, 138, 150);
+  font-weight: 500;
+}
+.footer-container {
+  color: white;
+}
+.footer-list a {
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  padding-top: 12px;
+  color: rgb(131, 138, 150);
+}
+.footer-list a:hover {
+  color: var(--color-text-secondary);
+}
+.footer-tag {
+  font-family: "Days One", sans-serif;
+  font-size: 20px;
+}
+hr {
+  margin: 50px 0px 20px 0;
+  height: 4px;
+  background-color: white;
+  border: none;
+}
+.footer-social {
+  font-size: 22px;
+  color: rgb(131, 138, 150);
+}
+.copyrights {
+  color: rgb(131, 138, 150);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.copyrights p {
+  font-weight: 500;
+  font-size: 14px;
+}
+.copyrights a {
+  font-weight: 500;
+  color: rgb(131, 138, 150);
+  text-decoration-line: none;
+  margin-left: 25px;
+  font-size: 15px;
+}
+.copyrights a:hover {
+  color: var(--color-text-secondary);
+}
+@media (max-width: 768px) {
+  .footer-container {
+    display: block;
+  }
+  .copyrights {
+    display: block;
+  }
+  .copyrights p {
+    font-size: 13px;
+  }
+  .copyrights a {
+    margin-left: 18px;
+    font-size: 16px;
+  }
+}
